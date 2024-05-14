@@ -7,5 +7,5 @@ class LinkedList:
   def __init__(self,head_node):
     self.head_node = head_node
 
-  def printLst(self):
+  def returnList(self):
     pass
