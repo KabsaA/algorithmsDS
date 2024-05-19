@@ -15,4 +15,10 @@ class LinkedList:
     while a:
       print(a.data)
       a = a.next_node
+
+  def addHeadNode(self,newData):
+    newNode = Node(newData)
+    a = self.head_node
+    newNode.next_node = a
+    self.head_node = newNode
     
