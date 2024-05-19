@@ -10,5 +10,9 @@ class LinkedList:
   def __init__(self,head_node):
     self.head_node = head_node
 
-  def returnList(self):
-    pass
+  def printLinkedList(self):
+    a = self.head_node
+    while a:
+      print(a.data)
+      a = a.next_node
+    
